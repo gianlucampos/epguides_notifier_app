@@ -1,0 +1,25 @@
+name: epguides_notifier_app
+description: Epguides notifier when your favorite sitcom season becames available
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  dio: ^5.1.2
+  dartz: ^0.10.1
+  flutter_modular: ^5.0.3
+  bloc: 7.0.0
+  rxdart: ^0.27.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+  mocktail: ^0.3.0
+  modular_test: ^2.0.0
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,1411 @@
+{
+  "1": [
+    {
+      "number": 1,
+      "release_date": "2017-09-25",
+      "season": 1,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Pilot"
+    },
+    {
+      "number": 2,
+      "release_date": "2017-11-02",
+      "season": 1,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Rockets, Communists, and the Dewey Decimal System"
+    },
+    {
+      "number": 3,
+      "release_date": "2017-11-09",
+      "season": 1,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Poker, Faith, and Eggs"
+    },
+    {
+      "number": 4,
+      "release_date": "2017-11-16",
+      "season": 1,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Therapist, a Comic Book, and a Breakfast Sausage"
+    },
+    {
+      "number": 5,
+      "release_date": "2017-11-23",
+      "season": 1,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Solar Calculator, a Game Ball, and a Cheerleader's Bosom"
+    },
+    {
+      "number": 6,
+      "release_date": "2017-11-30",
+      "season": 1,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Patch, a Modem, and a ZantacÂ®"
+    },
+    {
+      "number": 7,
+      "release_date": "2017-12-07",
+      "season": 1,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Brisket, Voodoo, and Cannonball Run"
+    },
+    {
+      "number": 8,
+      "release_date": "2017-12-14",
+      "season": 1,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Cape Canaveral, SchrÃ¶dinger's Cat, and Cyndi Lauper's Hair"
+    },
+    {
+      "number": 9,
+      "release_date": "2017-12-21",
+      "season": 1,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Spock, Kirk, and Testicular Hernia"
+    },
+    {
+      "number": 10,
+      "release_date": "2018-01-04",
+      "season": 1,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "An Eagle Feather, a String Bean, and an Eskimo"
+    },
+    {
+      "number": 11,
+      "release_date": "2018-01-11",
+      "season": 1,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Demons, Sunday School, and Prime Numbers"
+    },
+    {
+      "number": 12,
+      "release_date": "2018-01-18",
+      "season": 1,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Computer, a Plastic Pony, and a Case of Beer"
+    },
+    {
+      "number": 13,
+      "release_date": "2018-02-01",
+      "season": 1,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Sneeze, Detention and Sissy Spacek"
+    },
+    {
+      "number": 14,
+      "release_date": "2018-03-01",
+      "season": 1,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Potato Salad, a Broomstick, and Dad's Whiskey"
+    },
+    {
+      "number": 15,
+      "release_date": "2018-03-08",
+      "season": 1,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Dolomite, Apple Slices, and a Mystery Woman"
+    },
+    {
+      "number": 16,
+      "release_date": "2018-03-29",
+      "season": 1,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Killer Asteroids, Oklahoma, and a Frizzy Hair Machine"
+    },
+    {
+      "number": 17,
+      "release_date": "2018-04-05",
+      "season": 1,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Jiu-Jitsu, Bubble Wrap, and Yoo-hoo"
+    },
+    {
+      "number": 18,
+      "release_date": "2018-04-12",
+      "season": 1,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Mother, a Child and a Blue Man's Backside"
+    },
+    {
+      "number": 19,
+      "release_date": "2018-04-19",
+      "season": 1,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Gluons, Guacamole, and the Color Purple"
+    },
+    {
+      "number": 20,
+      "release_date": "2018-04-26",
+      "season": 1,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Dog, a Squirrel, and a Fish Named Fish"
+    },
+    {
+      "number": 21,
+      "release_date": "2018-05-03",
+      "season": 1,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Summer Sausage, a Pocket Poncho, and Tony Danza"
+    },
+    {
+      "number": 22,
+      "release_date": "2018-05-10",
+      "season": 1,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Vanilla Ice Cream, Gentleman Callers, and a Dinette Set"
+    }
+  ],
+  "2": [
+    {
+      "number": 1,
+      "release_date": "2018-09-24",
+      "season": 2,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A High-Pitched Buzz and Training Wheels"
+    },
+    {
+      "number": 2,
+      "release_date": "2018-09-27",
+      "season": 2,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Rival Prodigy and Sir Isaac Neutron"
+    },
+    {
+      "number": 3,
+      "release_date": "2018-10-04",
+      "season": 2,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Crisis of Faith and Octopus Aliens"
+    },
+    {
+      "number": 4,
+      "release_date": "2018-10-11",
+      "season": 2,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Financial Secret and Fish Sauce"
+    },
+    {
+      "number": 5,
+      "release_date": "2018-10-18",
+      "season": 2,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Research Study and Czechoslovakian Wedding Pastries"
+    },
+    {
+      "number": 6,
+      "release_date": "2018-10-25",
+      "season": 2,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Seven Deadly Sins and a Small Carl Sagan"
+    },
+    {
+      "number": 7,
+      "release_date": "2018-11-01",
+      "season": 2,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Carbon Dating and a Stuffed Raccoon"
+    },
+    {
+      "number": 8,
+      "release_date": "2018-11-08",
+      "season": 2,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "An 8-Bit Princess and a Flat Tire Genius"
+    },
+    {
+      "number": 9,
+      "release_date": "2018-11-15",
+      "season": 2,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Family Dynamics and a Red Fiero"
+    },
+    {
+      "number": 10,
+      "release_date": "2018-12-06",
+      "season": 2,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Stunted Childhood and a Can of Fancy Mixed Nuts"
+    },
+    {
+      "number": 11,
+      "release_date": "2019-01-03",
+      "season": 2,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Race of Superhumans and a Letter to Alf"
+    },
+    {
+      "number": 12,
+      "release_date": "2019-01-10",
+      "season": 2,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Tummy Ache and a Whale of a Metaphor"
+    },
+    {
+      "number": 13,
+      "release_date": "2019-01-17",
+      "season": 2,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Nuclear Reactor and a Boy Called Lovey"
+    },
+    {
+      "number": 14,
+      "release_date": "2019-01-31",
+      "season": 2,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "David, Goliath, and a Yoo-hoo from the Back"
+    },
+    {
+      "number": 15,
+      "release_date": "2019-02-07",
+      "season": 2,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Math Emergency and Perky Palms"
+    },
+    {
+      "number": 16,
+      "release_date": "2019-02-21",
+      "season": 2,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Loaf of Bread and a Grand Old Flag"
+    },
+    {
+      "number": 17,
+      "release_date": "2019-03-07",
+      "season": 2,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Albert Einstein and the Story of Another Mary"
+    },
+    {
+      "number": 18,
+      "release_date": "2019-04-04",
+      "season": 2,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Perfect Score and a Bunsen Burner Marshmallow"
+    },
+    {
+      "number": 19,
+      "release_date": "2019-04-25",
+      "season": 2,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Political Campaign and a Candy Land Cheater"
+    },
+    {
+      "number": 20,
+      "release_date": "2019-05-02",
+      "season": 2,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Proposal and a Popsicle Stick Cross"
+    },
+    {
+      "number": 21,
+      "release_date": "2019-05-09",
+      "season": 2,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Broken Heart and a Crock Monster"
+    },
+    {
+      "number": 22,
+      "release_date": "2019-05-16",
+      "season": 2,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Swedish Science Thing and the Equation for Toast"
+    }
+  ],
+  "3": [
+    {
+      "number": 1,
+      "release_date": "2019-09-26",
+      "season": 3,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Quirky Eggheads and Texas Snow Globes"
+    },
+    {
+      "number": 2,
+      "release_date": "2019-10-03",
+      "season": 3,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Broom Closet and Satan's Monopoly Board"
+    },
+    {
+      "number": 3,
+      "release_date": "2019-10-10",
+      "season": 3,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "An Entrepreneurialist and a Swat on the Bottom"
+    },
+    {
+      "number": 4,
+      "release_date": "2019-10-17",
+      "season": 3,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Hobbitses, Physicses and a Ball with Zip"
+    },
+    {
+      "number": 5,
+      "release_date": "2019-10-24",
+      "season": 3,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Pineapple and the Bosom of Male Friendship"
+    },
+    {
+      "number": 6,
+      "release_date": "2019-11-07",
+      "season": 3,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Parasol and a Hell of an Arm"
+    },
+    {
+      "number": 7,
+      "release_date": "2019-11-14",
+      "season": 3,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Pongo Pygmaeus and a Culture that Encourages Spitting"
+    },
+    {
+      "number": 8,
+      "release_date": "2019-11-21",
+      "season": 3,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "The Sin of Greed and a Chimichanga from Chi-chi's"
+    },
+    {
+      "number": 9,
+      "release_date": "2019-12-05",
+      "season": 3,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Party Invitation, Football Grapes and an Earth Chicken"
+    },
+    {
+      "number": 10,
+      "release_date": "2019-12-12",
+      "season": 3,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Teenager Soup and a Little Ball of Fib"
+    },
+    {
+      "number": 11,
+      "release_date": "2020-01-09",
+      "season": 3,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Live Chicken, a Fried Chicken and Holy Matrimony"
+    },
+    {
+      "number": 12,
+      "release_date": "2020-01-16",
+      "season": 3,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Body Glitter and a Mall Safety Kit"
+    },
+    {
+      "number": 13,
+      "release_date": "2020-01-30",
+      "season": 3,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Contracts, Rules and a Little Bit of Pig Brains"
+    },
+    {
+      "number": 14,
+      "release_date": "2020-02-06",
+      "season": 3,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Slump, a Cross and Roadside Gravel"
+    },
+    {
+      "number": 15,
+      "release_date": "2020-02-13",
+      "season": 3,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Boyfriend's Ex-Wife and a Good Luck Head Rub"
+    },
+    {
+      "number": 16,
+      "release_date": "2020-02-20",
+      "season": 3,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Pasadena"
+    },
+    {
+      "number": 17,
+      "release_date": "2020-03-05",
+      "season": 3,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "An Academic Crime and a More Romantic Taco Bell"
+    },
+    {
+      "number": 18,
+      "release_date": "2020-03-12",
+      "season": 3,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Couple Bruised Ribs and a Cereal Box Ghost Detector"
+    },
+    {
+      "number": 19,
+      "release_date": "2020-04-02",
+      "season": 3,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A House for Sale and Serious Woman Stuff"
+    },
+    {
+      "number": 20,
+      "release_date": "2020-04-16",
+      "season": 3,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Baby Tooth and the Egyptian God of Knowledge"
+    },
+    {
+      "number": 21,
+      "release_date": "2020-04-30",
+      "season": 3,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Secret Letter and a Lowly Disc of Processed Meat"
+    }
+  ],
+  "4": [
+    {
+      "number": 1,
+      "release_date": "2020-11-05",
+      "season": 4,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Graduation"
+    },
+    {
+      "number": 2,
+      "release_date": "2020-11-12",
+      "season": 4,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Docent, a Little Lady and a Bouncer Named Dalton"
+    },
+    {
+      "number": 3,
+      "release_date": "2020-11-19",
+      "season": 4,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Training Wheels and an Unleashed Chicken"
+    },
+    {
+      "number": 4,
+      "release_date": "2020-12-03",
+      "season": 4,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Bible Camp and a Chariot of Love"
+    },
+    {
+      "number": 5,
+      "release_date": "2020-12-17",
+      "season": 4,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Musty Crypt and a Stick to Pee On"
+    },
+    {
+      "number": 6,
+      "release_date": "2021-01-21",
+      "season": 4,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Freshman Orientation and the Inventor of the Zipper"
+    },
+    {
+      "number": 7,
+      "release_date": "2021-02-11",
+      "season": 4,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Philosophy Class and Worms That Can Chase You"
+    },
+    {
+      "number": 8,
+      "release_date": "2021-02-18",
+      "season": 4,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "An Existential Crisis and a Bear That Makes Bubbles"
+    },
+    {
+      "number": 9,
+      "release_date": "2021-02-25",
+      "season": 4,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Crappy Frozen Ice Cream and an Organ Grinder's Monkey"
+    },
+    {
+      "number": 10,
+      "release_date": "2021-03-04",
+      "season": 4,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Cowboy Aerobics and 473 Grease-Free Bolts"
+    },
+    {
+      "number": 11,
+      "release_date": "2021-03-11",
+      "season": 4,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Pager, a Club and a Cranky Bag of Wrinkles"
+    },
+    {
+      "number": 12,
+      "release_date": "2021-04-01",
+      "season": 4,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Box of Treasure and the Meemaw of Science"
+    },
+    {
+      "number": 13,
+      "release_date": "2021-04-08",
+      "season": 4,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "The Geezer Bus and a New Model for Education"
+    },
+    {
+      "number": 14,
+      "release_date": "2021-04-15",
+      "season": 4,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Mitch's Son and the Unconditional Approval of a Government Agency"
+    },
+    {
+      "number": 15,
+      "release_date": "2021-04-22",
+      "season": 4,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Virus, Heartbreak and a World of Possibilities"
+    },
+    {
+      "number": 16,
+      "release_date": "2021-04-29",
+      "season": 4,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Second Prodigy and the Hottest Tips for Pouty Lips"
+    },
+    {
+      "number": 17,
+      "release_date": "2021-05-06",
+      "season": 4,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Black Hole"
+    },
+    {
+      "number": 18,
+      "release_date": "2021-05-13",
+      "season": 4,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "The Wild and Woolly World of Nonlinear Dynamics"
+    }
+  ],
+  "5": [
+    {
+      "number": 1,
+      "release_date": "2021-10-07",
+      "season": 5,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "One Bad Night and Chaos of Selfish Desires"
+    },
+    {
+      "number": 2,
+      "release_date": "2021-10-14",
+      "season": 5,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Snoopin' Around and the Wonder Twins of Atheism"
+    },
+    {
+      "number": 3,
+      "release_date": "2021-10-21",
+      "season": 5,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Potential Energy and Hooch on a Park Bench"
+    },
+    {
+      "number": 4,
+      "release_date": "2021-10-28",
+      "season": 5,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Pish Posh and a Secret Back Room"
+    },
+    {
+      "number": 5,
+      "release_date": "2021-11-04",
+      "season": 5,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Stuffed Animals and A Sweet Southern Syzygy"
+    },
+    {
+      "number": 6,
+      "release_date": "2021-11-11",
+      "season": 5,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Money Laundering and a Cascade of Hormones"
+    },
+    {
+      "number": 7,
+      "release_date": "2021-11-18",
+      "season": 5,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "An Introduction to Engineering and a Glob of Hair Gel"
+    },
+    {
+      "number": 8,
+      "release_date": "2021-12-02",
+      "season": 5,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "The Grand Chancellor and a Den of Sin"
+    },
+    {
+      "number": 9,
+      "release_date": "2021-12-09",
+      "season": 5,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "The Yips and an Oddly Hypnotic Bohemian"
+    },
+    {
+      "number": 10,
+      "release_date": "2022-01-06",
+      "season": 5,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "An Expensive Glitch and a Goof-Off Room"
+    },
+    {
+      "number": 11,
+      "release_date": "2022-01-13",
+      "season": 5,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Lock-In, a Weather Girl and a Disgusting Habit"
+    },
+    {
+      "number": 12,
+      "release_date": "2022-01-20",
+      "season": 5,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Pink Cadillac and a Glorious Tribal Dance"
+    },
+    {
+      "number": 13,
+      "release_date": "2022-01-27",
+      "season": 5,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Lot of Band-Aids and the Cooper Surrender"
+    },
+    {
+      "number": 14,
+      "release_date": "2022-02-24",
+      "season": 5,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Free Scratcher and Feminine Wiles"
+    },
+    {
+      "number": 15,
+      "release_date": "2022-03-03",
+      "season": 5,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Lobster, an Armadillo and a Way Bigger Number"
+    },
+    {
+      "number": 16,
+      "release_date": "2022-03-10",
+      "season": 5,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Suitcase Full of Cash and a Yellow Clown Car"
+    },
+    {
+      "number": 17,
+      "release_date": "2022-03-31",
+      "season": 5,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Solo Peanut, a Social Butterfly and the Truth"
+    },
+    {
+      "number": 18,
+      "release_date": "2022-04-14",
+      "season": 5,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Babies, Lies and a Resplendent Cannoli"
+    },
+    {
+      "number": 19,
+      "release_date": "2022-04-21",
+      "season": 5,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A God-Fearin' Baptist and a Hot Trophy Husband"
+    },
+    {
+      "number": 20,
+      "release_date": "2022-04-28",
+      "season": 5,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Uncle Sheldon and a Hormonal Firecracker"
+    },
+    {
+      "number": 21,
+      "release_date": "2022-05-12",
+      "season": 5,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "White Trash, Holy Rollers and Punching People"
+    },
+    {
+      "number": 22,
+      "release_date": "2022-05-19",
+      "season": 5,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Clogged Pore, a Little Spanish and the Future"
+    }
+  ],
+  "6": [
+    {
+      "number": 1,
+      "release_date": "2022-09-29",
+      "season": 6,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Four Hundred Cartons of Undeclared Cigarettes and a Niblingo"
+    },
+    {
+      "number": 2,
+      "release_date": "2022-10-06",
+      "season": 6,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Future Worf and the Margarita of the South Pacific"
+    },
+    {
+      "number": 3,
+      "release_date": "2022-10-13",
+      "season": 6,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Passion's Harvest and a Sheldocracy"
+    },
+    {
+      "number": 4,
+      "release_date": "2022-10-20",
+      "season": 6,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Blonde Ambition and the Concept of Zero"
+    },
+    {
+      "number": 5,
+      "release_date": "2022-10-27",
+      "season": 6,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Resident Advisor and the Word 'Sketchy'"
+    },
+    {
+      "number": 6,
+      "release_date": "2022-11-03",
+      "season": 6,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "An Ugly Car, an Affair and Some Kickass Football"
+    },
+    {
+      "number": 7,
+      "release_date": "2022-11-10",
+      "season": 6,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Tougher Nut and a Note on File"
+    },
+    {
+      "number": 8,
+      "release_date": "2022-12-08",
+      "season": 6,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Legalese and a Whole Hoo-Ha"
+    },
+    {
+      "number": 9,
+      "release_date": "2023-01-05",
+      "season": 6,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "College Dropouts and the Medford Miracle"
+    },
+    {
+      "number": 10,
+      "release_date": "2023-01-12",
+      "season": 6,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Pancake Sunday and Textbook Flirting"
+    },
+    {
+      "number": 11,
+      "release_date": "2023-02-02",
+      "season": 6,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Ruthless, Toothless and a Week of Bed Rest"
+    },
+    {
+      "number": 12,
+      "release_date": "2023-02-09",
+      "season": 6,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Baby Shower and Testosterone-Rich Banter"
+    },
+    {
+      "number": 13,
+      "release_date": "2023-02-16",
+      "season": 6,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Frat Party, a Sleepover and the Mother of All Blisters"
+    },
+    {
+      "number": 14,
+      "release_date": "2023-03-02",
+      "season": 6,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Launch Party and a Whole Human Being"
+    },
+    {
+      "number": 15,
+      "release_date": "2023-03-09",
+      "season": 6,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Teen Angst and a Smart-Boy Walk of Shame"
+    },
+    {
+      "number": 16,
+      "release_date": "2023-03-30",
+      "season": 6,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Stolen Truck and Going on the Lam"
+    },
+    {
+      "number": 17,
+      "release_date": "2023-04-13",
+      "season": 6,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A German Folk Song and an Actual Adult"
+    },
+    {
+      "number": 18,
+      "release_date": "2023-04-27",
+      "season": 6,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "Little Green Men and a Fella's Marriage Proposal"
+    },
+    {
+      "number": 19,
+      "release_date": "2023-05-04",
+      "season": 6,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A New Weather Girl and a Stay-at-Home Coddler"
+    },
+    {
+      "number": 20,
+      "release_date": "2023-05-11",
+      "season": 6,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "German for Beginners and a Crazy Old Man with a Bat"
+    },
+    {
+      "number": 21,
+      "release_date": "2023-05-18",
+      "season": 6,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Romantic Getaway and a Germanic Meat-Based Diet"
+    },
+    {
+      "number": 22,
+      "release_date": "2023-05-18",
+      "season": 6,
+      "show": {
+        "epguide_name": "youngsheldon",
+        "imdb_id": "tt6226232",
+        "title": "Young Sheldon"
+      },
+      "title": "A Tornado, a 10-Hour Flight and a Darn Fine Ring"
+    }
+  ]
+}
