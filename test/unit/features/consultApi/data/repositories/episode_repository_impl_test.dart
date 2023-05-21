@@ -1,9 +1,9 @@
 import 'package:dartz/dartz.dart';
-import 'package:epguides_notifier_app/features/consultApi/data/data_sources/api_datasource.dart';
-import 'package:epguides_notifier_app/features/consultApi/data/models/episode_info_model.dart';
-import 'package:epguides_notifier_app/features/consultApi/data/repositories/episode_repository_impl.dart';
-import 'package:epguides_notifier_app/features/consultApi/domain/entities/episode_info.dart';
-import 'package:epguides_notifier_app/features/consultApi/domain/errors/errors.dart';
+import 'package:epguides_notifier_app/app/data/datasources/api_datasource.dart';
+import 'package:epguides_notifier_app/app/data/models/episode_info_model.dart';
+import 'package:epguides_notifier_app/app/data/repositories/episode_repository_impl.dart';
+import 'package:epguides_notifier_app/app/domain/entities/episode_info.dart';
+import 'package:epguides_notifier_app/app/domain/errors/errors.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 

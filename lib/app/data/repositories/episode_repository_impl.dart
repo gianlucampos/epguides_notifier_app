@@ -1,8 +1,8 @@
 import 'package:dartz/dartz.dart';
-import 'package:epguides_notifier_app/features/consultApi/data/data_sources/api_datasource.dart';
-import 'package:epguides_notifier_app/features/consultApi/domain/entities/episode_info.dart';
-import 'package:epguides_notifier_app/features/consultApi/domain/errors/errors.dart';
-import 'package:epguides_notifier_app/features/consultApi/domain/repositories/episode_repository.dart';
+import 'package:epguides_notifier_app/app/data/datasources/api_datasource.dart';
+import 'package:epguides_notifier_app/app/domain/entities/episode_info.dart';
+import 'package:epguides_notifier_app/app/domain/errors/errors.dart';
+import 'package:epguides_notifier_app/app/domain/repositories/episode_repository.dart';
 
 class EpisodeRepositoryImpl implements EpisodeRepository {
   final ApiDatasource datasource;

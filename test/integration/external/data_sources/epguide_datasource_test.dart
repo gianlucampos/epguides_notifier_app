@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
-import 'package:epguides_notifier_app/features/consultApi/data/models/episode_info_model.dart';
-import 'package:epguides_notifier_app/features/consultApi/external/data_sources/epguide_datasource.dart';
+import 'package:epguides_notifier_app/app/data/models/episode_info_model.dart';
+import 'package:epguides_notifier_app/app/external/datasources/epguide_datasource.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_test/flutter_test.dart';
 

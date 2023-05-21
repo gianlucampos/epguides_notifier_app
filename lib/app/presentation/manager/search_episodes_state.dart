@@ -1,5 +1,5 @@
-import 'package:epguides_notifier_app/features/consultApi/domain/entities/episode_info.dart';
-import 'package:epguides_notifier_app/features/consultApi/domain/errors/errors.dart';
+import 'package:epguides_notifier_app/app/domain/entities/episode_info.dart';
+import 'package:epguides_notifier_app/app/domain/errors/errors.dart';
 
 abstract class SearchState {}
 

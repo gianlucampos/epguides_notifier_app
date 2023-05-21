@@ -1,8 +1,8 @@
 import 'package:dartz/dartz.dart';
-import 'package:epguides_notifier_app/features/consultApi/domain/entities/episode_info.dart';
-import 'package:epguides_notifier_app/features/consultApi/domain/use_cases/get_last_season_episodes.dart';
-import 'package:epguides_notifier_app/features/consultApi/presentation/manager/search_bloc.dart';
-import 'package:epguides_notifier_app/features/consultApi/presentation/manager/states/search_state.dart';
+import 'package:epguides_notifier_app/app/domain/entities/episode_info.dart';
+import 'package:epguides_notifier_app/app/domain/use_cases/get_last_season_episodes.dart';
+import 'package:epguides_notifier_app/app/presentation/manager/search_episodes_bloc.dart';
+import 'package:epguides_notifier_app/app/presentation/manager/search_episodes_state.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 

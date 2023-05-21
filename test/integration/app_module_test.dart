@@ -1,9 +1,9 @@
 import 'dart:convert';
 
 import 'package:dio/dio.dart';
-import 'package:epguides_notifier_app/app_module.dart';
-import 'package:epguides_notifier_app/features/consultApi/domain/entities/episode_info.dart';
-import 'package:epguides_notifier_app/features/consultApi/domain/use_cases/get_last_season_episodes.dart';
+import 'package:epguides_notifier_app/app/app_module.dart';
+import 'package:epguides_notifier_app/app/domain/entities/episode_info.dart';
+import 'package:epguides_notifier_app/app/domain/use_cases/get_last_season_episodes.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
@@ -29,7 +29,7 @@ void main() {
     final dataMock = jsonDecode(fixture('getLastSeasonEpisodes.json'));
 
     when(() => dio.get(any())).thenAnswer(
-          (_) async => Response(
+      (_) async => Response(
           data: dataMock, statusCode: 200, requestOptions: RequestOptions()),
     );
 

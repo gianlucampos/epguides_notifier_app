@@ -1,4 +1,4 @@
-import 'package:epguides_notifier_app/features/consultApi/domain/entities/episode_info.dart';
+import 'package:epguides_notifier_app/app/domain/entities/episode_info.dart';
 
 class EpisodeInfoModel extends EpisodeInfo {
   EpisodeInfoModel({

@@ -1,5 +1,5 @@
-import 'package:epguides_notifier_app/features/consultApi/presentation/manager/search_bloc.dart';
-import 'package:epguides_notifier_app/features/consultApi/presentation/manager/states/search_state.dart';
+import 'package:epguides_notifier_app/app/presentation/manager/search_episodes_bloc.dart';
+import 'package:epguides_notifier_app/app/presentation/manager/search_episodes_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 

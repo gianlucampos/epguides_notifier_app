@@ -1,4 +1,4 @@
-import 'package:epguides_notifier_app/features/consultApi/data/models/episode_info_model.dart';
+import 'package:epguides_notifier_app/app/data/models/episode_info_model.dart';
 
 abstract class ApiDatasource {
 
