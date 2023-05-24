@@ -14,7 +14,7 @@ class SearchStart implements SearchState {}
 class SearchLoading implements SearchState {}
 
 class SearchError implements SearchState {
-  final FailureSearch error;
+  final Failure error;
 
   SearchError(this.error);
 }

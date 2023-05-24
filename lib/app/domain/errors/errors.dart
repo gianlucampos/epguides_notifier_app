@@ -1,8 +1,8 @@
-abstract class FailureSearch implements Exception {}
+abstract class Failure implements Exception {}
 
-class InvalidTextError implements FailureSearch {}
+class InvalidTextError implements Failure {}
 
-class DatasourceError implements FailureSearch {
+class DatasourceError implements Failure {
   final String? message;
 
   DatasourceError({this.message});

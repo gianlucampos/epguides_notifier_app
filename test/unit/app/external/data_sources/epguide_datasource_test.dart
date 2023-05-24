@@ -7,7 +7,7 @@ import 'package:epguides_notifier_app/app/domain/errors/errors.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 
-import '../../../../../fixtures/fixture_reader.dart';
+import '../../../../fixtures/fixture_reader.dart';
 
 class DioMock extends Mock implements Dio {}
 

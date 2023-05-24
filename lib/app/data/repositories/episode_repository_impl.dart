@@ -10,7 +10,7 @@ class EpisodeRepositoryImpl implements EpisodeRepository {
   EpisodeRepositoryImpl(this.datasource);
 
   @override
-  Future<Either<FailureSearch, List<EpisodeInfo>?>> getLastSeasonEpisodes(
+  Future<Either<Failure, List<EpisodeInfo>?>> getLastSeasonEpisodes(
       String showName) async {
     try {
       final result = await datasource.getLastSeasonEpisodes(showName);

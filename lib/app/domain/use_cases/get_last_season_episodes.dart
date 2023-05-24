@@ -4,7 +4,7 @@ import 'package:epguides_notifier_app/app/domain/errors/errors.dart';
 import 'package:epguides_notifier_app/app/domain/repositories/episode_repository.dart';
 
 abstract class GetLastSeasonEpisodes {
-  Future<Either<FailureSearch, List<EpisodeInfo>?>> call(String showName);
+  Future<Either<Failure, List<EpisodeInfo>?>> call(String showName);
 }
 
 class GetLastSeasonEpisodesImpl implements GetLastSeasonEpisodes {
@@ -13,7 +13,7 @@ class GetLastSeasonEpisodesImpl implements GetLastSeasonEpisodes {
   GetLastSeasonEpisodesImpl(this.repository);
 
   @override
-  Future<Either<FailureSearch, List<EpisodeInfo>?>> call(String showName) async {
+  Future<Either<Failure, List<EpisodeInfo>?>> call(String showName) async {
     if (showName.isEmpty) return Left(InvalidTextError());
 
     return repository.getLastSeasonEpisodes(showName);
