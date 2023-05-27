@@ -1,5 +1,6 @@
-import 'package:epguides_notifier_app/app/presentation/manager/search_episodes_bloc.dart';
-import 'package:epguides_notifier_app/app/presentation/manager/search_episodes_state.dart';
+import 'package:epguides_notifier_app/app/presentation/bloc/search_episode/search_episode_bloc.dart';
+import 'package:epguides_notifier_app/app/presentation/bloc/search_episode/search_episode_event.dart';
+import 'package:epguides_notifier_app/app/presentation/bloc/search_episode/search_episode_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
@@ -11,7 +12,7 @@ class EpisodesInfoPage extends StatefulWidget {
 }
 
 class _EpisodesInfoPageState extends State<EpisodesInfoPage> {
-  final bloc = Modular.get<SearchBloc>();
+  final bloc = Modular.get<SearchEpisodeBloc>();
 
   @override
   void dispose() {
@@ -30,7 +31,9 @@ class _EpisodesInfoPageState extends State<EpisodesInfoPage> {
           Padding(
             padding: const EdgeInsets.only(right: 8, left: 8, top: 8),
             child: TextField(
-              onChanged: bloc.add,
+              onChanged: (value) {
+                bloc.add(LoadSearchEpisodeEvent(searchText: value));
+              },
               decoration: const InputDecoration(
                   border: OutlineInputBorder(), labelText: "Search..."),
             ),
@@ -40,20 +43,20 @@ class _EpisodesInfoPageState extends State<EpisodesInfoPage> {
                 stream: bloc.stream,
                 builder: (context, snapshot) {
                   final state = bloc.state;
-                  if (state is SearchStart) {
+                  if (state is SearchEpisodeStartState) {
                     return const Center(
                       child: Text("Type something here"),
                     );
                   }
-                  if (state is SearchError) {
+                  if (state is SearchEpisodeErrorState) {
                     return const Center(
                       child: Text("Error"),
                     );
                   }
-                  if (state is SearchLoading) {
+                  if (state is SearchEpisodeLoadingState) {
                     return const CircularProgressIndicator();
                   }
-                  final list = (state as SearchSucess).list;
+                  final list = (state as SearchEpisodeSucessState).list;
                   return ListView.builder(
                       itemCount: list.length,
                       itemBuilder: (_, id) {
