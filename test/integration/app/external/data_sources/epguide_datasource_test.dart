@@ -9,7 +9,9 @@ void main() {
   final datasource = EpguideDatasource(dio);
 
   test('Should check if the episode is available', () async {
-    var result = await datasource.isEpisodeReleased(6, 1);
+    final episodeInfo = EpisodeInfoModel(season: 6, number: 1, title: '', releaseDate: '');
+    final result = await datasource.isEpisodeReleased(
+        showName: 'youngsheldon', episodeInfo: episodeInfo);
     if (kDebugMode) {
       print(result);
     }

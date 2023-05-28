@@ -5,18 +5,22 @@ import 'package:epguides_notifier_app/app/domain/errors/errors.dart';
 
 class EpguideDatasource implements ApiDatasource {
   static const String episodeReleased =
-      "https://epguides.frecar.no/show/youngsheldon/{season}/{episode}/released/";
-  static const String showInfo = "https://epguides.frecar.no/show/{showInfo}/";
+      "https://epguides.frecar.no/show/{showName}/{season}/{episode}/released/";
+  static const String showInfo = "https://epguides.frecar.no/show/{showName}/";
 
   final Dio dio;
 
   EpguideDatasource(this.dio);
 
   @override
-  Future<bool> isEpisodeReleased(int season, int episode) async {
+  Future<bool> isEpisodeReleased({
+    required String showName,
+    required EpisodeInfoModel episodeInfo,
+  }) async {
     String url = episodeReleased
-        .replaceAll('{season}', season.toString())
-        .replaceAll('{episode}', episode.toString());
+        .replaceAll('{showName}', showName)
+        .replaceAll('{season}', episodeInfo.season.toString())
+        .replaceAll('{episode}', episodeInfo.number.toString());
     var response = await dio.get(url);
     if (response.statusCode == 200) {
       return response.data['status'];
@@ -27,7 +31,7 @@ class EpguideDatasource implements ApiDatasource {
 
   @override
   Future<List<EpisodeInfoModel>> getLastSeasonEpisodes(String showName) async {
-    String url = showInfo.replaceAll('{showInfo}', showName);
+    String url = showInfo.replaceAll('{showName}', showName);
     final response = await dio.get(url);
     if (response.statusCode == 200) {
       final lastSeason = response.data.keys.last;
