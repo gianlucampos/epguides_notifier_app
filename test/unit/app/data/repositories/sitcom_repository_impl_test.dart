@@ -15,8 +15,17 @@ void main() {
   final datasource = DatabaseDatasourceMock();
   final repository = SitcomRepositoryImpl(datasource);
   final Sitcom sitcomMock = SitcomFixture.build;
+  final SitcomModel sitcomModelMock = SitcomModel.downcast(sitcomMock);
 
   test('should return a list of sitcoms', () async {
+    when(() => datasource.getSitcoms())
+        .thenAnswer((_) async => <SitcomModel>[sitcomModelMock]);
+
+    final result = await repository.getSitcoms();
+    expect(result.fold(id, id), isA<List<SitcomModel>>());
+  });
+
+  test('should return a empty list of sitcoms', () async {
     when(() => datasource.getSitcoms())
         .thenAnswer((_) async => <SitcomModel>[]);
 
@@ -25,15 +34,14 @@ void main() {
   });
 
   test('should save a sitcom', () async {
-    when(() => datasource.saveSitcom(sitcomMock))
-        .thenAnswer((_) async => true);
+    when(() => datasource.saveSitcom(sitcomModelMock)).thenAnswer((_) async => true);
 
     final result = await repository.saveSitcom(sitcomMock);
     expect(result.fold(id, id), true);
   });
 
   test('should remove a sitcom', () async {
-    when(() => datasource.removeSitcom(sitcomMock))
+    when(() => datasource.removeSitcom(sitcomModelMock))
         .thenAnswer((_) async => true);
 
     final result = await repository.removeSitcom(sitcomMock);
@@ -48,14 +56,14 @@ void main() {
   });
 
   test('should return an DataSourceError if saveSitcom fails', () async {
-    when(() => datasource.saveSitcom(sitcomMock)).thenThrow(Exception());
+    when(() => datasource.saveSitcom(sitcomModelMock)).thenThrow(Exception());
 
     final result = await repository.saveSitcom(sitcomMock);
     expect(result.fold(id, id), isA<DatasourceError>());
   });
 
   test('should return an DataSourceError if removeSitcom fails', () async {
-    when(() => datasource.removeSitcom(sitcomMock)).thenThrow(Exception());
+    when(() => datasource.removeSitcom(sitcomModelMock)).thenThrow(Exception());
 
     final result = await repository.removeSitcom(sitcomMock);
     expect(result.fold(id, id), isA<DatasourceError>());

@@ -1,4 +1,4 @@
-import 'package:epguides_notifier_app/app/domain/entities/episode_info.dart';
+import 'package:epguides_notifier_app/app/data/models/episode_info_model.dart';
 import 'package:epguides_notifier_app/app/domain/entities/sitcom.dart';
 
 class SitcomModel extends Sitcom {
@@ -34,7 +34,7 @@ class SitcomModel extends Sitcom {
     return {
       'name': name,
       'isReleased': isReleased,
-      'lastEpisode': lastEpisode,
+      'lastEpisode': EpisodeInfoModel.downcast(lastEpisode).toMap(),
     };
   }
 
@@ -42,7 +42,15 @@ class SitcomModel extends Sitcom {
     return SitcomModel(
       name: map['name'] as String,
       isReleased: map['isReleased'] as bool,
-      lastEpisode: map['lastEpisode'] as EpisodeInfo,
+      lastEpisode: EpisodeInfoModel.fromMap(map['lastEpisode']),
+    );
+  }
+
+  factory SitcomModel.downcast(Sitcom sitcom) {
+    return SitcomModel(
+      name: sitcom.name,
+      isReleased: sitcom.isReleased,
+      lastEpisode: sitcom.lastEpisode,
     );
   }
 }

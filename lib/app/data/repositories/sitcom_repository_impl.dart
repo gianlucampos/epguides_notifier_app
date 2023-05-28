@@ -2,6 +2,7 @@ import 'dart:developer';
 
 import 'package:dartz/dartz.dart';
 import 'package:epguides_notifier_app/app/data/datasources/database_datasource.dart';
+import 'package:epguides_notifier_app/app/data/models/sitcom_model.dart';
 import 'package:epguides_notifier_app/app/domain/entities/sitcom.dart';
 import 'package:epguides_notifier_app/app/domain/errors/errors.dart';
 import 'package:epguides_notifier_app/app/domain/repositories/sitcom_repository.dart';
@@ -27,7 +28,7 @@ class SitcomRepositoryImpl implements SitcomRepository {
   @override
   Future<Either<Failure, bool>> saveSitcom(Sitcom sitcom) async {
     try {
-      final result = await datasource.saveSitcom(sitcom);
+      final result = await datasource.saveSitcom(SitcomModel.downcast(sitcom));
       return Right(result);
     } on DatasourceError catch (e) {
       return Left(e);
@@ -40,7 +41,8 @@ class SitcomRepositoryImpl implements SitcomRepository {
   @override
   Future<Either<Failure, bool>> removeSitcom(Sitcom sitcom) async {
     try {
-      final result = await datasource.removeSitcom(sitcom);
+      final result =
+          await datasource.removeSitcom(SitcomModel.downcast(sitcom));
       return Right(result);
     } on DatasourceError catch (e) {
       return Left(e);
