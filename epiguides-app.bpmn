@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="sid-38422fae-e03e-43a3-bef4-bd33b32041b2" targetNamespace="http://bpmn.io/bpmn" exporter="bpmn-js (https://demo.bpmn.io)" exporterVersion="12.0.0">
+  <process id="Process_1" isExecutable="false">
+    <startEvent id="StartEvent_1y45yut" name="Input sitcom name">
+      <outgoing>Flow_00cqrqn</outgoing>
+    </startEvent>
+    <task id="Task_1hcentk" name="Api check if sitcom exists">
+      <incoming>Flow_0swhtaj</incoming>
+      <outgoing>SequenceFlow_0wnb4ke</outgoing>
+      <outgoing>Flow_0wc2rhr</outgoing>
+    </task>
+    <exclusiveGateway id="ExclusiveGateway_15hu1pt" name="Inform that sitcom wast found">
+      <incoming>SequenceFlow_0wnb4ke</incoming>
+    </exclusiveGateway>
+    <sequenceFlow id="SequenceFlow_0wnb4ke" sourceRef="Task_1hcentk" targetRef="ExclusiveGateway_15hu1pt" />
+    <task id="Activity_0fncr26" name="Get last season of show">
+      <incoming>Flow_0wc2rhr</incoming>
+      <outgoing>Flow_0anqk37</outgoing>
+    </task>
+    <sequenceFlow id="Flow_0wc2rhr" sourceRef="Task_1hcentk" targetRef="Activity_0fncr26" />
+    <task id="Activity_0otnxdk" name="Check if last Episode is released">
+      <incoming>Flow_0anqk37</incoming>
+      <outgoing>Flow_1s3bcvz</outgoing>
+    </task>
+    <sequenceFlow id="Flow_0anqk37" sourceRef="Activity_0fncr26" targetRef="Activity_0otnxdk" />
+    <task id="Activity_0r7nctg" name="Storadge in database">
+      <incoming>Flow_1s3bcvz</incoming>
+      <outgoing>Flow_0a4u108</outgoing>
+    </task>
+    <sequenceFlow id="Flow_1s3bcvz" sourceRef="Activity_0otnxdk" targetRef="Activity_0r7nctg" />
+    <startEvent id="Event_0ow3uvj" name="Click sitcom list">
+      <outgoing>Flow_13p1vxn</outgoing>
+    </startEvent>
+    <task id="Activity_11cwysg" name="Show episode in watch list">
+      <incoming>Flow_0a4u108</incoming>
+    </task>
+    <sequenceFlow id="Flow_0a4u108" sourceRef="Activity_0r7nctg" targetRef="Activity_11cwysg" />
+    <task id="Activity_1t2f5m1" name="Press the add button">
+      <incoming>Flow_00cqrqn</incoming>
+      <outgoing>Flow_0swhtaj</outgoing>
+    </task>
+    <sequenceFlow id="Flow_00cqrqn" sourceRef="StartEvent_1y45yut" targetRef="Activity_1t2f5m1" />
+    <sequenceFlow id="Flow_0swhtaj" sourceRef="Activity_1t2f5m1" targetRef="Task_1hcentk" />
+    <task id="Activity_1llclfw" name="Open Episodes Page">
+      <incoming>Flow_13p1vxn</incoming>
+      <outgoing>Flow_1fho2ua</outgoing>
+    </task>
+    <sequenceFlow id="Flow_13p1vxn" sourceRef="Event_0ow3uvj" targetRef="Activity_1llclfw" />
+    <task id="Activity_12f8dr2" name="Api search all episodes">
+      <incoming>Flow_1fho2ua</incoming>
+      <outgoing>Flow_0t7v57w</outgoing>
+    </task>
+    <sequenceFlow id="Flow_1fho2ua" sourceRef="Activity_1llclfw" targetRef="Activity_12f8dr2" />
+    <task id="Activity_0i8bydw" name="show episodes in list">
+      <incoming>Flow_0t7v57w</incoming>
+    </task>
+    <sequenceFlow id="Flow_0t7v57w" sourceRef="Activity_12f8dr2" targetRef="Activity_0i8bydw" />
+  </process>
+  <bpmndi:BPMNDiagram id="BpmnDiagram_1">
+    <bpmndi:BPMNPlane id="BpmnPlane_1" bpmnElement="Process_1">
+      <bpmndi:BPMNShape id="Task_1hcentk_di" bpmnElement="Task_1hcentk">
+        <omgdc:Bounds x="460" y="80" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="ExclusiveGateway_15hu1pt_di" bpmnElement="ExclusiveGateway_15hu1pt" isMarkerVisible="true">
+        <omgdc:Bounds x="485" y="185" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="468" y="242" width="88" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1t2f5m1_di" bpmnElement="Activity_1t2f5m1">
+        <omgdc:Bounds x="290" y="80" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="StartEvent_1y45yut_di" bpmnElement="StartEvent_1y45yut">
+        <omgdc:Bounds x="182" y="102" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="156" y="145" width="90" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0fncr26_di" bpmnElement="Activity_0fncr26">
+        <omgdc:Bounds x="630" y="80" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0otnxdk_di" bpmnElement="Activity_0otnxdk">
+        <omgdc:Bounds x="790" y="80" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_11cwysg_di" bpmnElement="Activity_11cwysg">
+        <omgdc:Bounds x="1110" y="80" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0r7nctg_di" bpmnElement="Activity_0r7nctg">
+        <omgdc:Bounds x="950" y="80" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_0wco6zd" bpmnElement="Event_0ow3uvj">
+        <omgdc:Bounds x="182" y="302" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="163" y="345" width="76" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1llclfw_di" bpmnElement="Activity_1llclfw">
+        <omgdc:Bounds x="270" y="280" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_12f8dr2_di" bpmnElement="Activity_12f8dr2">
+        <omgdc:Bounds x="430" y="280" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0i8bydw_di" bpmnElement="Activity_0i8bydw">
+        <omgdc:Bounds x="590" y="280" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0wnb4ke_di" bpmnElement="SequenceFlow_0wnb4ke">
+        <omgdi:waypoint x="510" y="160" />
+        <omgdi:waypoint x="510" y="185" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0wc2rhr_di" bpmnElement="Flow_0wc2rhr">
+        <omgdi:waypoint x="560" y="120" />
+        <omgdi:waypoint x="630" y="120" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0anqk37_di" bpmnElement="Flow_0anqk37">
+        <omgdi:waypoint x="730" y="120" />
+        <omgdi:waypoint x="790" y="120" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1s3bcvz_di" bpmnElement="Flow_1s3bcvz">
+        <omgdi:waypoint x="890" y="120" />
+        <omgdi:waypoint x="950" y="120" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0a4u108_di" bpmnElement="Flow_0a4u108">
+        <omgdi:waypoint x="1050" y="120" />
+        <omgdi:waypoint x="1110" y="120" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_00cqrqn_di" bpmnElement="Flow_00cqrqn">
+        <omgdi:waypoint x="218" y="120" />
+        <omgdi:waypoint x="290" y="120" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0swhtaj_di" bpmnElement="Flow_0swhtaj">
+        <omgdi:waypoint x="390" y="120" />
+        <omgdi:waypoint x="460" y="120" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_13p1vxn_di" bpmnElement="Flow_13p1vxn">
+        <omgdi:waypoint x="218" y="320" />
+        <omgdi:waypoint x="270" y="320" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1fho2ua_di" bpmnElement="Flow_1fho2ua">
+        <omgdi:waypoint x="370" y="320" />
+        <omgdi:waypoint x="430" y="320" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0t7v57w_di" bpmnElement="Flow_0t7v57w">
+        <omgdi:waypoint x="530" y="320" />
+        <omgdi:waypoint x="590" y="320" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>
