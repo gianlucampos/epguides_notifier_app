@@ -7,3 +7,13 @@ class DatasourceError implements Failure {
 
   DatasourceError({this.message});
 }
+
+class AddSitcomError implements Failure {
+  final String message;
+
+  AddSitcomError({required this.message});
+}
+
+class SitcomDoesNotExist implements Failure {
+  final message = 'Sitcom does not exist';
+}
