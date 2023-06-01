@@ -11,18 +11,20 @@ import '../../../../fixtures/sitcom_fixture.dart';
 class SharedPreferencesMock extends Mock implements SharedPreferences {}
 
 void main() {
-  final sharedPreferences = SharedPreferencesMock();
+  final sharedPreferences = Future.value(SharedPreferencesMock());
   final datasource = SharedPreferencesDatasource(sharedPreferences);
   final SitcomModel sitcomModelMock = SitcomModel.downcast(SitcomFixture.build);
 
   group('shared_preferences_datasource_test', () {
     test('should get sitcoms list from sharedPreferences database', () async {
-      when(() => sharedPreferences.getKeys())
+      final database = await sharedPreferences;
+
+      when(() => database.getKeys())
           .thenAnswer((_) => <String>{sitcomModelMock.name});
 
       var details = jsonEncode({sitcomModelMock.name: sitcomModelMock.toMap()});
 
-      when(() => sharedPreferences.getString(any()))
+      when(() => database.getString(any()))
           .thenAnswer((_) => details);
 
       final result = await datasource.getSitcoms();
@@ -32,7 +34,9 @@ void main() {
 
     test('should get sitcoms empty list from sharedPreferences database',
         () async {
-      when(() => sharedPreferences.getKeys()).thenAnswer((_) => <String>{});
+          final database = await sharedPreferences;
+
+          when(() => database.getKeys()).thenAnswer((_) => <String>{});
 
       final result = await datasource.getSitcoms();
 
@@ -40,7 +44,9 @@ void main() {
     });
 
     test('should save from sitcom from sharedPreferences database', () async {
-      when(() => sharedPreferences.setString(any(), any()))
+      final database = await sharedPreferences;
+
+      when(() => database.setString(any(), any()))
           .thenAnswer((_) async => true);
 
       final result = await datasource.saveSitcom(sitcomModelMock);
@@ -49,7 +55,9 @@ void main() {
     });
 
     test('should remove from sitcom from sharedPreferences database', () async {
-      when(() => sharedPreferences.remove(any())).thenAnswer((_) async => true);
+      final database = await sharedPreferences;
+
+      when(() => database.remove(any())).thenAnswer((_) async => true);
 
       final result = await datasource.removeSitcom(sitcomModelMock);
 

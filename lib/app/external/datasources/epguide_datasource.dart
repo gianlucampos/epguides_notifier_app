@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:dio/dio.dart';
 import 'package:epguides_notifier_app/app/data/datasources/api_datasource.dart';
 import 'package:epguides_notifier_app/app/data/models/episode_info_model.dart';
@@ -32,14 +34,19 @@ class EpguideDatasource implements ApiDatasource {
   @override
   Future<List<EpisodeInfoModel>> getLastSeasonEpisodes(String showName) async {
     String url = showInfo.replaceAll('{showName}', showName);
-    final response = await dio.get(url);
-    if (response.statusCode == 200) {
-      final lastSeason = response.data.keys.last;
-      return (response.data[lastSeason] as List)
-          .map((e) => EpisodeInfoModel.fromMap(e))
-          .toList();
-    } else {
-      throw DatasourceError();
+    try {
+      final response = await dio.get(url);
+      if (response.statusCode == 200) {
+        final lastSeason = response.data.keys.last;
+        return (response.data[lastSeason] as List)
+            .map((e) => EpisodeInfoModel.fromMap(e))
+            .toList();
+      } else {
+        throw DatasourceError();
+      }
+    } catch (e) {
+      log(e.toString());
+      rethrow;
     }
   }
 }
