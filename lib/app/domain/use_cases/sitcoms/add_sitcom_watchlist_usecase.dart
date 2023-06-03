@@ -1,4 +1,5 @@
 import 'package:dartz/dartz.dart';
+import 'package:epguides_notifier_app/app/data/models/episode_info_model.dart';
 import 'package:epguides_notifier_app/app/domain/entities/sitcom.dart';
 import 'package:epguides_notifier_app/app/domain/errors/errors.dart';
 import 'package:epguides_notifier_app/app/domain/repositories/episode_repository.dart';
@@ -27,7 +28,11 @@ class AddSitcomWatchListUsecaseImpl implements AddSitcomWatchListUsecase {
     if (listEpisodes.isLeft()) {
       return Left(SitcomDoesNotExist());
     }
-    final lastEpisode = listEpisodes.getOrElse(() => [])!.last;
+    final lastEpisode = listEpisodes.getOrElse(() => null)!.map((elem) {
+      return elem as EpisodeInfoModel;
+    }).reduce((value, element) {
+      return value.number >= element.number ? value : element;
+    });
 
     final resultIsNewSeasonReleased = await episodeRepository.isEpisodeReleased(
       showName: showName,

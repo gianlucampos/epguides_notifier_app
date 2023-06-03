@@ -1,10 +1,11 @@
 import 'package:dartz/dartz.dart';
+import 'package:epguides_notifier_app/app/data/models/episode_info_model.dart';
 import 'package:epguides_notifier_app/app/domain/entities/episode_info.dart';
 import 'package:epguides_notifier_app/app/domain/entities/sitcom.dart';
 import 'package:epguides_notifier_app/app/domain/errors/errors.dart';
 import 'package:epguides_notifier_app/app/domain/repositories/episode_repository.dart';
 import 'package:epguides_notifier_app/app/domain/repositories/sitcom_repository.dart';
-import 'package:epguides_notifier_app/app/domain/use_cases/add_sitcom_watchlist_usecase.dart';
+import 'package:epguides_notifier_app/app/domain/use_cases/sitcoms/add_sitcom_watchlist_usecase.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 
@@ -18,7 +19,7 @@ class SitcomRepositoryMock extends Mock implements SitcomRepository {}
 void main() {
   final episodeRepository = EpisodeRepositoryMock();
   final sitcomRepository = SitcomRepositoryMock();
-  final EpisodeInfo episodeMock = EpisodeInfoFixture.build;
+  final EpisodeInfoModel episodeMock = EpisodeInfoModel.downcast(EpisodeInfoFixture.build);
   final Sitcom sitcomMock = SitcomFixture.build;
 
   registerFallbackValue(sitcomMock);
@@ -30,7 +31,7 @@ void main() {
 
   test('Should add a new sitcom with sucess', () async {
     when(() => episodeRepository.getLastSeasonEpisodes('youngsheldon'))
-        .thenAnswer((_) async => Right(<EpisodeInfo>[episodeMock]));
+        .thenAnswer((_) async => Right(<EpisodeInfoModel>[episodeMock]));
 
     when(() => episodeRepository.isEpisodeReleased(
           showName: 'youngsheldon',

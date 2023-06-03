@@ -2,7 +2,7 @@ import 'package:dartz/dartz.dart';
 import 'package:epguides_notifier_app/app/domain/entities/sitcom.dart';
 import 'package:epguides_notifier_app/app/domain/errors/errors.dart';
 import 'package:epguides_notifier_app/app/domain/repositories/sitcom_repository.dart';
-import 'package:epguides_notifier_app/app/domain/use_cases/get_sitcoms_usecase.dart';
+import 'package:epguides_notifier_app/app/domain/use_cases/sitcoms/get_sitcoms_usecase.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 

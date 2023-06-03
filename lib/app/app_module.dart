@@ -1,10 +1,10 @@
 import 'package:dio/dio.dart';
 import 'package:epguides_notifier_app/app/data/repositories/episode_repository_impl.dart';
 import 'package:epguides_notifier_app/app/data/repositories/sitcom_repository_impl.dart';
-import 'package:epguides_notifier_app/app/domain/use_cases/add_sitcom_watchlist_usecase.dart';
 import 'package:epguides_notifier_app/app/domain/use_cases/get_last_season_episodes.dart';
-import 'package:epguides_notifier_app/app/domain/use_cases/get_sitcoms_usecase.dart';
-import 'package:epguides_notifier_app/app/domain/use_cases/remove_sitcoms_usecase.dart';
+import 'package:epguides_notifier_app/app/domain/use_cases/sitcoms/add_sitcom_watchlist_usecase.dart';
+import 'package:epguides_notifier_app/app/domain/use_cases/sitcoms/get_sitcoms_usecase.dart';
+import 'package:epguides_notifier_app/app/domain/use_cases/sitcoms/remove_sitcoms_usecase.dart';
 import 'package:epguides_notifier_app/app/external/datasources/epguide_datasource.dart';
 import 'package:epguides_notifier_app/app/external/datasources/shared_preferences_datasource.dart';
 import 'package:epguides_notifier_app/app/presentation/bloc/search_episode/search_episode_bloc.dart';
@@ -40,7 +40,6 @@ class AppModule extends Module {
   @override
   List<ModularRoute> get routes => [
         ChildRoute('/', child: (context, args) => SitcomPage()),
-        ChildRoute('/episodes',
-            child: (context, args) => EpisodesInfoPage()),
+        ChildRoute('/episodes', child: (context, args) => EpisodesInfoPage()),
       ];
 }

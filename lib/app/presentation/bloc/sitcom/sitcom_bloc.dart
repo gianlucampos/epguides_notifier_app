@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
-import 'package:epguides_notifier_app/app/domain/use_cases/add_sitcom_watchlist_usecase.dart';
-import 'package:epguides_notifier_app/app/domain/use_cases/get_sitcoms_usecase.dart';
-import 'package:epguides_notifier_app/app/domain/use_cases/remove_sitcoms_usecase.dart';
+import 'package:epguides_notifier_app/app/domain/use_cases/sitcoms/add_sitcom_watchlist_usecase.dart';
+import 'package:epguides_notifier_app/app/domain/use_cases/sitcoms/get_sitcoms_usecase.dart';
+import 'package:epguides_notifier_app/app/domain/use_cases/sitcoms/remove_sitcoms_usecase.dart';
 import 'package:epguides_notifier_app/app/presentation/bloc/sitcom/sitcom_event.dart';
 import 'package:epguides_notifier_app/app/presentation/bloc/sitcom/sitcom_state.dart';
 
