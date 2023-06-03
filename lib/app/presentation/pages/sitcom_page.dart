@@ -64,7 +64,7 @@ class SitcomPage extends StatelessWidget {
                   );
                 }
                 if (state is LoadingSicomState) {
-                  return const CircularProgressIndicator();
+                  return const Center(child: CircularProgressIndicator());
                 }
                 final list = (state as SucessSicomState).list;
                 return ListView.builder(
@@ -73,12 +73,15 @@ class SitcomPage extends StatelessWidget {
                       final sitcom = list[id];
                       return ListTile(
                         leading: sitcom.isReleased
-                            ? const Text("Available")
-                            : const Text("In progress"),
+                            ? const CircleAvatar(
+                                backgroundColor: Colors.green)
+                            : const CircleAvatar(
+                                backgroundColor: Colors.red),
                         title: Text(sitcom.name),
                         subtitle: Text(
                             "Release Date: ${sitcom.lastEpisode.releaseDate}"),
-                        onTap: () => Modular.to.pushNamed('/episodes'),
+                        onTap: () => Modular.to
+                            .pushNamed('/episodes', arguments: sitcom.name),
                         onLongPress: () => bloc.add(RemoveSitcomEvent(sitcom)),
                       );
                     });

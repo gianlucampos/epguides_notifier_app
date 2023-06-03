@@ -8,25 +8,27 @@ class EpisodesInfoPage extends StatelessWidget {
   EpisodesInfoPage({Key? key}) : super(key: key);
 
   final bloc = Modular.get<SearchEpisodeBloc>();
+  final sitcomName = Modular.args.data;
 
   @override
   Widget build(BuildContext context) {
+    bloc.add(LoadSearchEpisodeEvent(searchText: sitcomName));
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Epguides Notifier App'),
+        title: Text(sitcomName),
       ),
       body: Column(
         children: [
-          Padding(
-            padding: const EdgeInsets.only(right: 8, left: 8, top: 8),
-            child: TextField(
-              onChanged: (value) {
-                bloc.add(LoadSearchEpisodeEvent(searchText: value));
-              },
-              decoration: const InputDecoration(
-                  border: OutlineInputBorder(), labelText: "Search..."),
-            ),
-          ),
+          // Padding(
+          //   padding: const EdgeInsets.only(right: 8, left: 8, top: 8),
+          //   child: TextField(
+          //     onChanged: (value) {
+          //       bloc.add(LoadSearchEpisodeEvent(searchText: value));
+          //     },
+          //     decoration: const InputDecoration(
+          //         border: OutlineInputBorder(), labelText: "Search..."),
+          //   ),
+          // ),
           Expanded(
             child: StreamBuilder(
                 stream: bloc.stream,
@@ -43,7 +45,7 @@ class EpisodesInfoPage extends StatelessWidget {
                     );
                   }
                   if (state is SearchEpisodeLoadingState) {
-                    return const CircularProgressIndicator();
+                    return const Center(child: CircularProgressIndicator());
                   }
                   final list = (state as SearchEpisodeSucessState).list;
                   return ListView.builder(
@@ -51,8 +53,11 @@ class EpisodesInfoPage extends StatelessWidget {
                       itemBuilder: (_, id) {
                         final episode = list[id];
                         return ListTile(
-                          leading:
-                              Text("${episode.season} X ${episode.number}"),
+                          leading: CircleAvatar(
+                            radius: 30,
+                              backgroundColor: Colors.white,
+                              child: Text(
+                                  "${episode.season} X ${episode.number}")),
                           title: Text(episode.title),
                           subtitle:
                               Text("Release Date: ${episode.releaseDate}"),
