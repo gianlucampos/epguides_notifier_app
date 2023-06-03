@@ -17,3 +17,9 @@ class AddSitcomError implements Failure {
 class SitcomDoesNotExist implements Failure {
   final message = 'Sitcom does not exist';
 }
+
+class NotificationError implements Failure {
+  final String message;
+
+  NotificationError({required this.message});
+}

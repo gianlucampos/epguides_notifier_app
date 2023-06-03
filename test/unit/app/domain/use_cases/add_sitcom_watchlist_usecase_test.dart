@@ -5,6 +5,7 @@ import 'package:epguides_notifier_app/app/domain/entities/sitcom.dart';
 import 'package:epguides_notifier_app/app/domain/errors/errors.dart';
 import 'package:epguides_notifier_app/app/domain/repositories/episode_repository.dart';
 import 'package:epguides_notifier_app/app/domain/repositories/sitcom_repository.dart';
+import 'package:epguides_notifier_app/app/domain/services/notification_service.dart';
 import 'package:epguides_notifier_app/app/domain/use_cases/sitcoms/add_sitcom_watchlist_usecase.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
@@ -16,9 +17,12 @@ class EpisodeRepositoryMock extends Mock implements EpisodeRepository {}
 
 class SitcomRepositoryMock extends Mock implements SitcomRepository {}
 
+class NotificationServiceMock extends Mock implements NotificationService {}
+
 void main() {
   final episodeRepository = EpisodeRepositoryMock();
   final sitcomRepository = SitcomRepositoryMock();
+  final notificationService = NotificationServiceMock();
   final EpisodeInfoModel episodeMock = EpisodeInfoModel.downcast(EpisodeInfoFixture.build);
   final Sitcom sitcomMock = SitcomFixture.build;
 
@@ -27,6 +31,7 @@ void main() {
   final usecase = AddSitcomWatchListUsecaseImpl(
     episodeRepository: episodeRepository,
     sitcomRepository: sitcomRepository,
+    notificationService: notificationService
   );
 
   test('Should add a new sitcom with sucess', () async {
