@@ -4,21 +4,10 @@ import 'package:epguides_notifier_app/app/presentation/bloc/search_episode/searc
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
-class EpisodesInfoPage extends StatefulWidget {
-  const EpisodesInfoPage({Key? key}) : super(key: key);
+class EpisodesInfoPage extends StatelessWidget {
+  EpisodesInfoPage({Key? key}) : super(key: key);
 
-  @override
-  State<EpisodesInfoPage> createState() => _EpisodesInfoPageState();
-}
-
-class _EpisodesInfoPageState extends State<EpisodesInfoPage> {
   final bloc = Modular.get<SearchEpisodeBloc>();
-
-  @override
-  void dispose() {
-    super.dispose();
-    bloc.close();
-  }
 
   @override
   Widget build(BuildContext context) {

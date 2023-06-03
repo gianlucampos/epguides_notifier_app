@@ -14,8 +14,4 @@ class RemoveSitcomEvent extends SitcomEvent {
   RemoveSitcomEvent(this.sitcom);
 }
 
-class LoadSitcomsEvent extends SitcomEvent {
-  final List<Sitcom> sitcoms;
-
-  LoadSitcomsEvent(this.sitcoms);
-}
+class LoadSitcomsEvent extends SitcomEvent {}

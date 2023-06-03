@@ -22,7 +22,7 @@ void main() {
       when(() => database.getKeys())
           .thenAnswer((_) => <String>{sitcomModelMock.name});
 
-      var details = jsonEncode({sitcomModelMock.name: sitcomModelMock.toMap()});
+      var details = jsonEncode(sitcomModelMock.toMap());
 
       when(() => database.getString(any()))
           .thenAnswer((_) => details);

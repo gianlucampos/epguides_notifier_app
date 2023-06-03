@@ -41,6 +41,6 @@ class AppModule extends Module {
   List<ModularRoute> get routes => [
         ChildRoute('/', child: (context, args) => SitcomPage()),
         ChildRoute('/episodes',
-            child: (context, args) => const EpisodesInfoPage()),
+            child: (context, args) => EpisodesInfoPage()),
       ];
 }

@@ -12,6 +12,7 @@ class SitcomPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     String sitcomValue = '';
+    bloc.add(LoadSitcomsEvent());
     return Scaffold(
       appBar: AppBar(
         title: const Text('Epguides Notifier App'),
@@ -57,10 +58,14 @@ class SitcomPage extends StatelessWidget {
                   itemBuilder: (_, id) {
                     final sitcom = list[id];
                     return ListTile(
-                      leading: Text("${sitcom.isReleased}"),
+                      leading: sitcom.isReleased
+                          ? const Text("Available")
+                          : const Text("In progress"),
                       title: Text(sitcom.name),
                       subtitle: Text(
                           "Release Date: ${sitcom.lastEpisode.releaseDate}"),
+                      onTap: () => Modular.to.pushNamed('/episodes'),
+                      onLongPress: () => bloc.add(RemoveSitcomEvent(sitcom)),
                     );
                   });
             },

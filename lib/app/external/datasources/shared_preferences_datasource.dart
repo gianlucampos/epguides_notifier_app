@@ -18,8 +18,8 @@ class SharedPreferencesDatasource implements DatabaseDatasource {
 
     final listSitcoms = listKeys.map((key) {
       final sitcomJson = database.getString(key)!;
-      final map = jsonDecode(sitcomJson) as Map<String, dynamic>;
-      return SitcomModel.fromMap(map[key]);
+      final json = jsonDecode(sitcomJson) as Map<String, dynamic>;
+      return SitcomModel.fromMap(json);
     }).toList();
 
     return Future<List<SitcomModel>>.value(listSitcoms);
